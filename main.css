@@ -1,0 +1,253 @@
+/* this links to the google font 'Lato' that is being used */
+@import url("http://fonts.googleapis.com/css?family=Lato:300,400,900");
+
+/*  ----------------  BOX MODEL  ----------------  */
+
+*, *:before, *:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/*  ----------------  RESET  ----------------  */
+
+html, body, div, span, applet, object, iframe, h1, h2, 
+h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, 
+address, big, cite, code, del, dfn, em, img, ins, kbd, 
+q, s, samp, small, strike, strong, sub, sup, tt, var, b, 
+u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, 
+legend, table, caption, tbody, tfoot, thead, tr, th, td, 
+article, aside, canvas, details, embed, figure, figcaption, 
+footer, header, hgroup, menu, nav, output, ruby, section, 
+summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+
+article, aside, details, figcaption, figure, footer, 
+header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+body {
+	-webkit-text-size-adjust: none;
+}
+
+
+/*  ----------------  BASIC STYLING STUFF  ----------------  */
+/*feel free to change this if you think you need*/
+
+body {
+	color: #222;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	letter-spacing: 0.025em;
+	line-height: 1.75em;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: inherit;
+	font-weight: 300;
+	line-height: 1.75em;
+	margin-bottom: 1.5em;
+}
+
+/*  -------------------  YOUR STYLE BELOW HERE  ------------------  */
+
+
+/*//////////////////////   HEADER - Banner   //////////////////////*/
+#banner{
+	height: 600px;
+	background-image: url("images/banner.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+h1{
+	color: white;
+	font-size: 80pt;
+	margin-bottom: 0em;
+}
+
+
+
+
+/*//////////////////////   SECTION - About   //////////////////////*/
+
+
+#about{
+	height: 400px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+h2{
+	font-size: 36pt;
+}
+#about p{
+	font-size: 16pt;
+	width: 60%
+
+}
+
+
+/*//////////////////////   SECTION - Places   //////////////////////*/
+
+#places{
+	display: inline-flex;
+
+}
+#places h2{
+	font-size: 30pt;
+}
+#places p{
+	font-size: 14pt;
+}
+#place1{
+	background-color: #8695a9;
+	padding: 60px;
+	margin:2px;
+}
+#place2{
+	background-color: #8695a9;
+	padding: 60px;
+	margin:2px;
+
+}
+#place3{
+	background-color: #8695a9;
+	padding: 60px;
+	margin:2px;
+
+}
+
+/*//////////////////////   ASIDE - Gallery   //////////////////////*/
+
+#gallery{
+	height: 865px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#galleryjs{
+	height: 665px;
+	flex-shrink: 2;
+}
+
+
+
+/*//////////////////////   SECTION - Grid   //////////////////////*/
+
+#grid{
+	height: 760px;
+	background-color: #f4f3f1;
+}
+.things{
+	display: flex;
+	justify-content: space-around;
+	padding-top: 100px;
+}
+.thing{
+	background-color: white;
+	text-align: center;
+	flex-basis: 30%;
+}
+.thing h2{
+	font-size: 18pt;
+	margin-bottom: 0px;
+}
+.thing p{
+	padding: 25px;
+}
+.thumb{
+	width: 450px;
+	height: 300px;
+}
+#t1{
+	display: none;
+}
+#button{
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+}
+button{
+	background-color: white;
+	color: black;
+	border: none;
+	padding: 14px 40px;
+	font-size: 25px;
+
+}
+
+
+/*//////////////////////   FOOTER   //////////////////////*/
+
+#footer{
+	height: 300px;
+	background-color: #101920;
+}
+ul{
+	list-style: none;
+	padding-left: 100px;
+	padding-top: 100px;
+}
+li{
+	display: inline-block;
+	color: white;
+	padding-right: 50px;
+	font-size: 30pt;
+}
+#footer p{
+	padding-left: 100px;
+	color: white;
+	font-size: 20pt;
+	padding-top: 20px;
+}
+a:link {
+	color: white;
+}
+a:visited {
+	color: grey;
+}
+
+
+
+
+
+
+
+/*  -------------------  MEDIA QUERIES BELOW HERE  ------------------  */
+/* use min-width in your media queries */
+
+
+
+
+
+
+
+
+
+
+
+
+
